@@ -24,7 +24,7 @@ bespoke.from('article', [
   forms(),
   backdrop()
 ]).on('activate', function (event) {
-    if (event.index == 1) {
+    if (event.index == 1 || event.index == 14) {
       document.getElementById('music').play();
     } else {
       document.getElementById('music').pause();
