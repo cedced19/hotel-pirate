@@ -24,12 +24,10 @@ bespoke.from('article', [
   forms(),
   backdrop()
 ]).on('activate', function (event) {
-    if (event.index == 1 || event.index == 14) {
+    if (event.index == 1 || event.index == 17) {
       document.getElementById('music').play();
     } else {
       document.getElementById('music').pause();
       document.getElementById('music').currentTime = 0;
     }
 });
-
-
